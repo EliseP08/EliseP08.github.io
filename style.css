@@ -1,0 +1,125 @@
+body
+{
+  font-family: sans-serif;
+  font-size: 13px;
+  height:100%;
+}
+
+.nav
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding: 2px;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+
+.e1, .e2, .e3, .e4
+{
+  padding:12px;
+}
+
+.e4
+{
+  padding-right: 20px;
+  width:93.17px;
+  height:30;
+  color:#FFFFFF;
+  background-color: #4583ED
+  border-radius: 5px;
+}
+
+.middle
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height:420px;
+  margin:auto;
+  width:400px;
+}
+
+.boutons
+{
+  display: grid;
+  grid-template-rows: 2fr;
+  width: 300px;
+  margin-top: 2em;
+  margin: 1em;
+}
+
+.bouton_recherche
+{
+  grid-column: 1;
+  grid-row: 1;
+  width: 150.75px;
+  margin: 11px 4px;
+  height: 36px;
+  border-radius: 5px;
+  color: #5F6368;
+  background-color: #f2f2f2;
+  font-size: 14px;
+} 
+
+.bouton_luck
+{
+  grid-column: 1;
+  grid-row: 1;
+  width: 127.86px;
+  margin: 11px 4px;
+  height: 36px;
+  border-radius: 5px;
+  color: #5F6368;
+  background-color: #f2f2f2;
+  font-size: 14px;
+}
+
+.gif
+{
+  grid-column: 1;
+  grid-row: 2;
+  margin: .5em;
+  height: 30px;
+}
+
+.covid
+{
+  grid-column: 2; 
+  grid-row:2;
+  margin: .5em;
+  height: 30px;
+  color:#1A0DAB;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 27px;
+
+}
+
+.navfoot
+{
+    display: flex;
+    align-items: space-between;
+    justify-content: flex-end;
+    color: #919497;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    margin-bottom: 81px;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    margin: 0px 0px 0px 27px;
+}
+
+.footer2
+{
+  display: grid;
+  grid-template-columns: 100px 100px 110px 500px 100px 100px 100px 100px 100px 100px;
+  border-top: 1px #919497 solid;
+  padding-top:;
+}
